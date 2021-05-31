@@ -13,7 +13,7 @@ function App() {
             <div className='App'>
                 <AppTitle title={Config.appTitle} />
                 <Switch>
-                    <Redirect exact from='/' to='/home/q' />
+                    <Redirect exact from='/' to='/home/all' />
                     <Route path='/home/:lang?' component={Home} />
                     <Route path='/details/:owner/:repo' component={Details} />
                     <Route component={NoMatch} />
