@@ -1,0 +1,29 @@
+.App {
+    box-sizing: border-box;
+    padding: 0 24px;
+    max-width: 980px;
+    margin: 0 auto;
+
+    font-size: 0.9rem;
+}
+
+.app-title {
+    cursor: pointer;
+}
+
+.back-button {
+    color: #ff5722;
+    cursor: pointer;
+}
+
+.stats-chart,
+.repository-chart {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.language-filter {
+    display: flex;
+    justify-content: flex-end;
+}
