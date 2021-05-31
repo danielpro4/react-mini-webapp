@@ -7,7 +7,7 @@ Technical test with reactjs, chart.js and GitHub API
 
 ### Run the webapp on localhost
 
-1. Clone repo from https://
+1. Clone repo from https://github.com/danielpro4/react-mini-webapp.git
 2. Install dependencies with `yarn install`
 3. Run on localhost with `yarn start`
 4. Go to `localhost:3000`
