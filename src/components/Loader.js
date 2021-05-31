@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Loader = ({ message = 'Cargando...' }) => {
+const Loader = ({ message = 'Loading...' }) => {
     return <div>{message}</div>
 }
 
