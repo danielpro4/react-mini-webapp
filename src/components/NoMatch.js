@@ -1,21 +1,21 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const NoMatch = ({ redirectTo = '/q' }) => {
+const NoMatch = ({ redirectTo = '/home/all' }) => {
     return (
         <section
             style={{
                 backgroundColor: 'white',
-                height: '100vh',
+                height: '80vh',
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'center',
                 alignItems: 'center',
             }}
         >
-            <h2>Página no encontrada</h2>
-            <p>Lo sentimos, no pudimos encontrar lo que buscas</p>
-            <a href={redirectTo}>Ir al home</a>
+            <h2>Page not found</h2>
+            <p>We couldn't find you are looking for.</p>
+            <a href={redirectTo}>Go to home</a>
         </section>
     )
 }
