@@ -1,9 +1,12 @@
 # React - Mini Web App
 
-Technical test with reactjs, chart.js and GitHub API
+Challenge with reactjs, chart.js and GitHub API
 
 - Page 1 (Home): Top 20 repositories on GitHub.
 - Page 2 (Detail): Gets the last 10 weeks of commit activity.
+
+### Live
+- https://react-miniapp.netlify.app/
 
 ### Run the webapp on localhost
 
