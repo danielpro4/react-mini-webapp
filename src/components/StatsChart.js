@@ -23,7 +23,7 @@ const StatsChart = ({ data }) => {
 
     return (
         <div className="stats-chart">
-            <ChartComponent id="stats" data={getData(data)} />
+            <ChartComponent id="stats" type='line' data={getData(data)} />
         </div>
     )
 }
